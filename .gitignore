@@ -1,0 +1,26 @@
+# Power BI files
+*.pbix.tmp
+~$*.pbix
+
+# PowerShell
+*.ps1.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+~*
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
