@@ -1,6 +1,11 @@
-# Define variables
-$workspaceName = "OHRA_CEHRIS"
-$userPrincipalName = "Chad.Toney@va.gov"
+# Parameters for script execution
+param(
+    [Parameter(Mandatory=$true)]
+    [string]$workspaceName,
+    
+    [Parameter(Mandatory=$true)]
+    [string]$userPrincipalName
+)
 
 # Login to Power BI Service Account
 Login-PowerBIServiceAccount -Environment USGov
